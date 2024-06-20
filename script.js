@@ -8,3 +8,10 @@ function getComputerChoice()
     return choice;
 }
 
+function getHumanChoice()
+{
+    let choice = prompt("Enter your choice: \"rock\",\"paper\",\"scissors\".");
+    return choice;
+}
+
+console.log(getHumanChoice());
