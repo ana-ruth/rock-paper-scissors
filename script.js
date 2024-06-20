@@ -73,3 +73,20 @@ function playRound(humanChoice, computerChoice)
 
     return message;
 }
+
+function playGame()
+{
+    for(let i=0;i<5;i++)
+    {
+        const humanSelection = getHumanChoice();
+        const computerSelection = getComputerChoice();
+        playRound(humanSelection,computerSelection);
+    }
+
+    if(computerScore > humanScore) {return "You Lost.";}
+    else if(computerScore < humanScore) {return "You Won!";}
+    else if(computerScore == humanScore) {return "It's a tie.";}
+
+}
+
+console.log(playGame());
