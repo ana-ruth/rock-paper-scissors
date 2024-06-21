@@ -89,4 +89,6 @@ function playGame()
 
 }
 
-console.log(playGame());
+let result = playGame();
+console.log(result);
+window.alert(result);
