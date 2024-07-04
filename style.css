@@ -1,0 +1,164 @@
+.gameTitle{
+    background-color: #002D62;
+    padding: 15px;
+    text-align: center;
+    border-style: solid;
+    border-color: #FF5F15;
+    border-width:50px;
+}
+
+h1{
+    font-weight: bold;
+    color:white;
+}
+
+button:hover{
+    transition: transform 0.3s;
+    animation: bubble 0.5s ease-out;
+    cursor: pointer;
+}
+
+@keyframes bubble {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+button:hover{
+    cursor: pointer;
+}
+
+#container
+{
+    padding:30px;
+    display:flex;
+    background-color: #002D62;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#rock{
+    background-image: url("rock.png");
+    background-color: #002D62;
+    background-size: cover;
+    width: 300px;  
+    height: 300px; 
+    border: none;
+}
+
+#paper{
+
+    background-image: url("paper.png");
+    background-color: #002D62;
+    background-size: cover; 
+    width: 300px;  
+    height: 300px; 
+    border: none;
+}
+
+#scissors{
+    background-image: url("scissors.png");
+    background-color: #002D62;
+    background-size: cover;
+    width: 300px;  
+    height: 300px; 
+    border: none;
+}
+
+.scores{
+    background-color: rgb(165, 165, 168);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-color: #c5beba;
+    border-style: solid;
+    padding:0 0 5px;
+    border-width: 20px ;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: #002D62;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 20px;
+    height:250px;
+    background-color: #032246;
+    color:#c5beba;
+}
+
+#currentGame{
+    font-size: 35px;
+}
+
+.players{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.players h2{
+    margin:0;
+    padding: 20px;
+    border-color: #002D62;
+    border-style: solid;
+    border-width: 10px;
+    height:15;
+    text-align: center;
+    width: 100px;
+}
+
+
+.scoreboard{
+    display: flex;
+    flex-direction: row;
+}
+
+.scores p{
+    font-weight:bold ;
+    font-size: 50px;
+}
+
+#human{
+    margin: 25px 0 0 0;
+    height:50px;
+    background-color:#FF5F15;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#computer
+{
+    margin: 25px 0 0 0;
+    height:50px;
+    background-color:#002D62;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#middle{
+    margin: 20px 0 0 0;
+    height:50px;
+    padding: 30px 10px 30px;
+    border-radius: 15px;
+}
+
+
+#results {
+    
+    font-weight:bold ;
+    font-size: 50px;  
+    z-index: 2;
+    position: absolute;
+    left: 30%;
+    top: 62%;
+    padding: 10px 300px 10px;
+}
