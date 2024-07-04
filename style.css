@@ -4,7 +4,7 @@
     text-align: center;
     border-style: solid;
     border-color: #FF5F15;
-    border-width:30px 600px 30px;
+    border-width:15px;
 }
 
 h1{
@@ -38,7 +38,7 @@ button:hover{
 
 #container
 {
-    padding:30px;
+    padding: 20px;
     display:flex;
     background-color: #002D62;
     justify-content: center;
