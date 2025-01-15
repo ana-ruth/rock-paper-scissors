@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors
 Website: https://ana-ruth.github.io/rock-paper-scissors/
-Rock, paper, scissors is a fun and easy hand game that anyone can learn and enjoy. The basics are that rock beats scissors, scissors beat paper, and paper beats rock.
+- Rock, paper, scissors is a fun and easy hand game that anyone can learn and enjoy. The basics are that rock beats scissors, scissors beat paper, and paper beats rock.
 ![image](https://github.com/user-attachments/assets/494dcb36-df61-42e2-a88c-6ca63267aa51)
 
 ## Features
